@@ -1,0 +1,22 @@
+{
+    "name":"EyeDropper extension",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "description":"A color picker extension",
+  
+"background":{
+    "service-worker":"background.js" 
+},
+"permissions":[
+    "storage",
+        "activeTab",
+        "scripting"
+],
+    "action":{
+        "default_title": "chrome extension",
+        "default_popup":"index.html",
+        "default_icon": {
+            "32": "/star.png"
+        }
+}
+}

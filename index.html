@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyedroper Extension</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"></head>
+<body>
+
+<div class="h-28 w-60 bg-slate-500 flex flex-col items-center justify-start gap-y-3">
+    <p class='text-lg font-semibold '>Color Picker</p>
+    <button class="bg-yellow-400 w-[32] font-semibold px-6 py-1 text-center rounded-lg" id="btn">pick color</button>
+    <div class="flex items-center justify-center gap-x-2">
+        <span id="colorGrid" class="inline-block w-5 h-5 "></span>
+        <span id="colorValue"></span>
+    </div>
+</div>
+    <script src="./script/popup.js"></script>
+</body>
+</html>
